@@ -1,0 +1,52 @@
+/* Feito por Pablo BC*/
+
+body 
+{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#code {
+	border: none;
+	border-radius: 8px;
+	padding: 16px;
+	font-size: 12pt;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(169, 215, 255);
+}
+
+#output {
+	border: none;
+	border-radius: 8px;
+	padding: 16px;
+	font-size: 12pt;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: darkslategrey;
+	width: 100%;
+	height: 25%;
+	margin: 16px;
+	position: absolute;
+	color: white;
+	box-shadow: inset 0 4px 8px #0008;
+	overflow-x: inherit;
+	overflow-y: scroll;
+}
+
+button {
+	color: green;
+	background-color: greenyellow;
+	padding: 8px;
+	font-size: 24pt;
+	box-shadow: 0 4px 8px #0008;
+	border-radius: 8px;
+	border: none;
+}
+
+.consoleInput {
+	border: none;
+	border-radius: 2px;
+	background: #0002;
+	color: white;
+	font-size: 12pt;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 0;
+}
